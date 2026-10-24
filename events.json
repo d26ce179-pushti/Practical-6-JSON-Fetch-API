@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": 1,
+    "name": "Tech Fest",
+    "category": "Technical",
+    "date": "2026-11-05",
+    "location": "Auditorium"
+  },
+  {
+    "id": 2,
+    "name": "Sports Day",
+    "category": "Sports",
+    "date": "2026-11-10",
+    "location": "Sports Ground"
+  }
+]

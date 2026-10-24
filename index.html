@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>College Events Portal</h1>
+        <p>Explore upcoming college events</p>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <input type="text" id="search"
+                   placeholder="Search events...">
+
+            <select id="category">
+                <option value="All">All Categories</option>
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Sports">Sports</option>
+            </select>
+
+            <select id="sorting">
+                <option value="asc">Date: Oldest First</option>
+                <option value="desc">Date: Newest First</option>
+                <option value="name">Name: A to Z</option>
+            </select>
+        </div>
+
+        <p id="status">Loading events...</p>
+        <section id="eventList" class="event-list"></section>
+
+        <div class="pagination">
+            <button id="previous">Previous</button>
+            <span id="pageInfo"></span>
+            <button id="next">Next</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
